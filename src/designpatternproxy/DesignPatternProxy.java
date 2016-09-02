@@ -17,4 +17,9 @@ public class DesignPatternProxy {
         proxy.doSomeWork();
     }
     
+    //Remote proxy - hide the actual object in a different address space
+    //Virtual proxy - perform optimization techniques like create actual objects on demand 
+    //Protection proxy - deal with different access rights
+    //Smart Reference - housekeeping work like total reference counts of actual object
+    
 }
