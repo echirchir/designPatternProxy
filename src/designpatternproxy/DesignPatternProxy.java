@@ -5,17 +5,16 @@
  */
 package designpatternproxy;
 
-/**
- *
- * @author rocket
- */
+import designpatternproxy.proxyclasses.Proxy;
+
 public class DesignPatternProxy {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("Proxy design pattern example");
+        
+        Proxy proxy = new Proxy();
+        
+        proxy.doSomeWork();
     }
     
 }
